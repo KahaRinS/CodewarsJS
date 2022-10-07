@@ -6,7 +6,7 @@ function getParticipants(handshakes){
     if (handshakes==0) {
         return 0;
     }
-    let i = 2n;
+    let i = 2;
     while (true) {
         if (combination(i) >=handshakes) {
             return i;
