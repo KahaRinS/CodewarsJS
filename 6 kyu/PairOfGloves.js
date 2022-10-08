@@ -16,5 +16,7 @@ function numberOfPairs(glove){
     return fullCount
 }
 
+
+
 let p = ['red','green','blue']
 console.log(numberOfPairs(p))
